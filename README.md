@@ -16,4 +16,5 @@ Al Hacer Click en Desactivar
 
 Al Hacer Click en Reporte.
 
-Esto es el inicio del desarrollo de la aplicación el menú de navegación.
+Esto es el inicio del desarrollo de la aplicación el menú de navegación. 
+Para ejecutar este codigo se debe hacer mediante Visual Studio Code. 
