@@ -21,12 +21,9 @@ const routes: Routes = [
   },
   {
     path: 'desactivar',
-    loadChildren: () => import('./desactivar/desactivar.module').then( m => m.DesactivarPageModule)
+    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
-  {
-    path: 'reporte',
-    loadChildren: () => import('./reporte/reporte.module').then( m => m.ReportePageModule)
-  }
+  
 ];
 
 @NgModule({

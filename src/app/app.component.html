@@ -12,6 +12,13 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+                
+        <countdown #cd1 [config]="{leftTime: 30}"></countdown>
+        
+        <button (click)= "cd1.restart()">Activar</button>
+        <button (click)= "cd1.stop()">Terminar</button>
+       
+        
 
              </ion-content>
     </ion-menu>

@@ -9,8 +9,8 @@ export class AppComponent {
     
     { title: 'Inicio', url: '/inicio', icon: 'person' },
     { title: 'Activar', url: '/activar', icon: 'checkmark-circle' },
-    { title: 'Desactivar', url: '/desactivar', icon: 'close-circle' },
-    { title: 'Reporte', url: '/reporte', icon: 'archive' },
+    { title: 'Salir', url: '/desactivar', icon: 'close-circle' }
+    
       ];
   
   constructor() {}
